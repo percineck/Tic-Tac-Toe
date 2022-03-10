@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-color: rgba(77, 4, 4, 0.308);
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 30, 30);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 127, 127);
+    border: 1px solid grey;
+    display: inline-block;   
+    border-radius: 5px;
+}
+
+.o{
+    position: relative;
+}
+
+.o::after{
+    position: absolute;
+    content: "\2B55"; /*Icone - https://emojipedia.org/hollow-red-circle/*/
+    font-size: 50px;
+    line-height:100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    position: absolute;
+    content: "\274C"; /*Icone - https://emojipedia.org/cross-mark/*/
+    font-size: 50px;
+    line-height:100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#btn{
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: rgba(161, 29, 29, 0.76);
+    color: white;
+}
